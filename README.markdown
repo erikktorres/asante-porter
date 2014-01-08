@@ -47,4 +47,5 @@ beacon? 2 <Buffer 1f 8f>
 
 ```
 
+Do the **beacon** dance.
 
