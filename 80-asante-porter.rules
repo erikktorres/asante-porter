@@ -7,7 +7,7 @@ KERNEL=="ttyUSB*", ACTION=="add", SUBSYSTEM=="tty"
   ENV{DEVNAME}=="ttyUSB[0-9]", \
   ENV{ID_MODEL_ID}=="7f38", \
   ENV{ID_VENDOR_ID}=="0403", \
-  SYMLINK+="ttyUSB.Asante%n"
+  SYMLINK+="ttyUSB.AsantePorter%n"
 
 ACTION=="remove", SUBSYSTEM=="usb", \
   ENV{ID_MODEL_ID}=="7f38", \
